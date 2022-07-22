@@ -11,7 +11,7 @@ def calcular(valor, cartao, tipo):
     comissao = valor_venda*0.13
   elif tipo == 'Gerente':
     comissao = valor_venda*0.16
-  elif tipo == 'Sem Comissão':
+  elif tipo == 'Sem_comissão':
     comissao = 0
   return {'Valor Venda Final': f'R$ {round(valor_venda_final, 2)}',
           f'Comissão da {tipo}': f'R${round(comissao, 2)}',
